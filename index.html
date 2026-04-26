@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shree Shyam Bakers — Premium Artisan Bakery</title>
+    <meta name="description" content="Shree Shyam Bakers — India's finest artisan bakery crafting premium breads, cakes, pastries, and traditional Indian sweets with love since generations.">
+    <link rel="icon" type="image/png" href="images/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500&family=Inter:wght@300;400;500;600;700&family=Great+Vibes&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="preloader-inner">
+            <div class="preloader-logo">
+                <img src="images/logo.png" alt="Shree Shyam Bakers Logo">
+            </div>
+            <div class="preloader-text">Shree Shyam Bakers</div>
+            <div class="preloader-bar">
+                <div class="preloader-bar-fill"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Floating Particles -->
+    <div id="particles-container"></div>
+
+    <!-- Navigation -->
+    <nav id="navbar" class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">
+                <img src="images/logo.png" alt="Shree Shyam Bakers" class="nav-logo-img">
+                <div class="nav-logo-text">
+                    <span class="nav-brand">Shree Shyam</span>
+                    <span class="nav-tagline">Bakers</span>
+                </div>
+            </a>
+            <div class="nav-links" id="navLinks">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#products" class="nav-link">Products</a>
+                <a href="#gallery" class="nav-link">Gallery</a>
+                <a href="#testimonials" class="nav-link">Reviews</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <a href="#contact" class="nav-cta">Order Now</a>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu Overlay -->
+    <div class="mobile-menu" id="mobileMenu">
+        <div class="mobile-menu-content">
+            <a href="#home" class="mobile-link">Home</a>
+            <a href="#about" class="mobile-link">About</a>
+            <a href="#products" class="mobile-link">Products</a>
+            <a href="#gallery" class="mobile-link">Gallery</a>
+            <a href="#testimonials" class="mobile-link">Reviews</a>
+            <a href="#contact" class="mobile-link">Contact</a>
+            <a href="#contact" class="mobile-cta">Order Now</a>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-bg">
+            <img src="images/hero.png" alt="Shree Shyam Bakers Artisan Bakery Display" class="hero-bg-img">
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-badge animate-on-scroll">
+                <span class="badge-icon">✦</span>
+                <span>Premium Artisan Bakery</span>
+                <span class="badge-icon">✦</span>
+            </div>
+            <h1 class="hero-title animate-on-scroll">
+                <span class="hero-title-line">Baked with</span>
+                <span class="hero-title-accent">Love & Tradition</span>
+            </h1>
+            <p class="hero-subtitle animate-on-scroll">
+                Crafting India's finest breads, cakes, pastries & traditional sweets with generations of expertise and the purest ingredients.
+            </p>
+            <div class="hero-actions animate-on-scroll">
+                <a href="#products" class="btn btn-primary">
+                    <span>Explore Our Menu</span>
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14m-7-7 7 7-7 7"/></svg>
+                </a>
+                <a href="#about" class="btn btn-outline">Our Story</a>
+            </div>
+            <div class="hero-stats animate-on-scroll">
+                <div class="stat">
+                    <span class="stat-number" data-target="15">0</span><span class="stat-suffix">+</span>
+                    <span class="stat-label">Years of Excellence</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat">
+                    <span class="stat-number" data-target="50">0</span><span class="stat-suffix">K+</span>
+                    <span class="stat-label">Happy Customers</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat">
+                    <span class="stat-number" data-target="200">0</span><span class="stat-suffix">+</span>
+                    <span class="stat-label">Unique Recipes</span>
+                </div>
+            </div>
+        </div>
+        <div class="hero-scroll-indicator">
+            <span>Scroll Down</span>
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- Marquee -->
+    <div class="marquee-section">
+        <div class="marquee">
+            <div class="marquee-content">
+                <span>★ Fresh Daily</span>
+                <span>★ Pure Ingredients</span>
+                <span>★ Handcrafted with Love</span>
+                <span>★ Traditional Recipes</span>
+                <span>★ Custom Cakes</span>
+                <span>★ Wedding Specials</span>
+                <span>★ Festival Sweets</span>
+                <span>★ Free Delivery</span>
+                <span>★ Fresh Daily</span>
+                <span>★ Pure Ingredients</span>
+                <span>★ Handcrafted with Love</span>
+                <span>★ Traditional Recipes</span>
+                <span>★ Custom Cakes</span>
+                <span>★ Wedding Specials</span>
+                <span>★ Festival Sweets</span>
+                <span>★ Free Delivery</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-images animate-on-scroll">
+                    <div class="about-img-main">
+                        <img src="images/interior.png" alt="Shree Shyam Bakers Interior">
+                        <div class="about-img-badge">
+                            <span class="script-font">Since</span>
+                            <span class="badge-year">2010</span>
+                        </div>
+                    </div>
+                    <div class="about-img-secondary">
+                        <img src="images/bread.png" alt="Artisan Bread at Shree Shyam Bakers">
+                    </div>
+                </div>
+                <div class="about-content animate-on-scroll">
+                    <div class="section-label">Our Story</div>
+                    <h2 class="section-title">A Legacy of <span class="text-accent">Taste & Trust</span></h2>
+                    <p class="about-text">
+                        Welcome to <strong>Shree Shyam Bakers</strong> — where every bite tells a story of passion, tradition, and the finest craftsmanship. Nestled in the heart of India, our bakery has been a beloved destination for families, celebrations, and everyday indulgences.
+                    </p>
+                    <p class="about-text">
+                        From our signature artisan breads baked fresh every morning to our exquisitely decorated celebration cakes and traditional Indian sweets, we pour our heart into every creation. We use only the purest ingredients — real butter, farm-fresh eggs, premium flour, and wholesome flavors.
+                    </p>
+                    <div class="about-features">
+                        <div class="feature">
+                            <div class="feature-icon">🌾</div>
+                            <div>
+                                <h4>100% Pure Ingredients</h4>
+                                <p>No preservatives, no shortcuts — just pure, wholesome goodness</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <div class="feature-icon">👨‍🍳</div>
+                            <div>
+                                <h4>Master Bakers</h4>
+                                <p>Expert artisans with decades of baking experience</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <div class="feature-icon">🎂</div>
+                            <div>
+                                <h4>Custom Creations</h4>
+                                <p>Bespoke cakes & sweets tailored for your special moments</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products section">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <div class="section-label">Our Specialties</div>
+                <h2 class="section-title">Crafted to <span class="text-accent">Perfection</span></h2>
+                <p class="section-subtitle">From classic favorites to innovative creations, discover our range of freshly baked delights made with love every single day.</p>
+            </div>
+
+            <div class="products-filter animate-on-scroll">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="cakes">Cakes</button>
+                <button class="filter-btn" data-filter="breads">Breads</button>
+                <button class="filter-btn" data-filter="pastries">Pastries</button>
+                <button class="filter-btn" data-filter="cookies">Cookies</button>
+                <button class="filter-btn" data-filter="sweets">Indian Sweets</button>
+            </div>
+
+            <div class="products-grid">
+                <div class="product-card animate-on-scroll" data-category="cakes">
+                    <div class="product-img-wrap">
+                        <img src="images/cake.png" alt="Designer Wedding Cake">
+                        <div class="product-overlay">
+                            <span class="product-tag">Bestseller</span>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Designer Wedding Cakes</h3>
+                        <p>Exquisite multi-tier cakes with fondant artistry, sugar flowers & gold accents</p>
+                        <div class="product-footer">
+                            <span class="product-price">From ₹2,500</span>
+                            <button class="product-btn">Order Now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card animate-on-scroll" data-category="breads">
+                    <div class="product-img-wrap">
+                        <img src="images/bread.png" alt="Artisan Sourdough Bread">
+                        <div class="product-overlay">
+                            <span class="product-tag">Fresh Daily</span>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Artisan Sourdough</h3>
+                        <p>Slow-fermented, hand-shaped sourdough with a perfect golden crust</p>
+                        <div class="product-footer">
+                            <span class="product-price">From ₹250</span>
+                            <button class="product-btn">Order Now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card animate-on-scroll" data-category="pastries">
+                    <div class="product-img-wrap">
+                        <img src="images/pastries.png" alt="Premium Pastries Collection">
+                        <div class="product-overlay">
+                            <span class="product-tag">Popular</span>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>French Pastries & Eclairs</h3>
+                        <p>Buttery croissants, chocolate eclairs & delicate fruit tarts</p>
+                        <div class="product-footer">
+                            <span class="product-price">From ₹120</span>
+                            <button class="product-btn">Order Now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card animate-on-scroll" data-category="cookies">
+                    <div class="product-img-wrap">
+                        <img src="images/cookies.png" alt="Gourmet Cookies Collection">
+                        <div class="product-overlay">
+                            <span class="product-tag">Gift Box</span>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Gourmet Cookie Box</h3>
+                        <p>Chocolate chip, butter cookies, nankatai & almond biscotti collection</p>
+                        <div class="product-footer">
+                            <span class="product-price">From ₹350</span>
+                            <button class="product-btn">Order Now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card animate-on-scroll" data-category="sweets">
+                    <div class="product-img-wrap">
+                        <img src="images/pastries.png" alt="Traditional Indian Sweets">
+                        <div class="product-overlay">
+                            <span class="product-tag">Festival Special</span>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Traditional Indian Sweets</h3>
+                        <p>Kaju katli, gulab jamun, rasgulla, ladoo & premium mithai boxes</p>
+                        <div class="product-footer">
+                            <span class="product-price">From ₹500</span>
+                            <button class="product-btn">Order Now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card animate-on-scroll" data-category="cakes">
+                    <div class="product-img-wrap">
+                        <img src="images/cake.png" alt="Birthday Celebration Cake">
+                        <div class="product-overlay">
+                            <span class="product-tag">Custom</span>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Birthday Celebration Cakes</h3>
+                        <p>Photo cakes, theme cakes & personalized celebration masterpieces</p>
+                        <div class="product-footer">
+                            <span class="product-price">From ₹800</span>
+                            <button class="product-btn">Order Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Parallax Banner -->
+    <section class="parallax-banner">
+        <div class="parallax-bg">
+            <img src="images/hero.png" alt="Bakery Atmosphere">
+        </div>
+        <div class="parallax-overlay"></div>
+        <div class="parallax-content">
+            <span class="script-font parallax-script">Experience the magic</span>
+            <h2>Every Celebration Deserves the <span class="text-accent">Perfect Cake</span></h2>
+            <p>Let us create a masterpiece for your special occasion — weddings, birthdays, anniversaries & more.</p>
+            <a href="#contact" class="btn btn-primary btn-glow">
+                <span>Order Custom Cake</span>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14m-7-7 7 7-7 7"/></svg>
+            </a>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery section">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <div class="section-label">Visual Gallery</div>
+                <h2 class="section-title">A Feast for <span class="text-accent">Your Eyes</span></h2>
+                <p class="section-subtitle">Take a peek at our creations — every item is a work of art, crafted with precision and love.</p>
+            </div>
+            <div class="gallery-grid animate-on-scroll">
+                <div class="gallery-item gallery-item-large">
+                    <img src="images/cake.png" alt="Premium Cake Collection">
+                    <div class="gallery-hover">
+                        <span>Designer Cakes</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/bread.png" alt="Artisan Breads">
+                    <div class="gallery-hover">
+                        <span>Fresh Breads</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/cookies.png" alt="Gourmet Cookies">
+                    <div class="gallery-hover">
+                        <span>Cookie Collection</span>
+                    </div>
+                </div>
+                <div class="gallery-item gallery-item-tall">
+                    <img src="images/interior.png" alt="Bakery Interior">
+                    <div class="gallery-hover">
+                        <span>Our Bakery</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/pastries.png" alt="Premium Pastries">
+                    <div class="gallery-hover">
+                        <span>Fine Pastries</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/hero.png" alt="Bakery Showcase">
+                    <div class="gallery-hover">
+                        <span>Our Showcase</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials section">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <div class="section-label">Customer Love</div>
+                <h2 class="section-title">What Our Customers <span class="text-accent">Say</span></h2>
+                <p class="section-subtitle">We're proud to bring joy to thousands of customers across India.</p>
+            </div>
+            <div class="testimonials-slider animate-on-scroll">
+                <div class="testimonial-track" id="testimonialTrack">
+                    <div class="testimonial-card">
+                        <div class="testimonial-stars">★★★★★</div>
+                        <p class="testimonial-text">"The best bakery in town! Their chocolate truffle cake is absolutely divine. I've been a loyal customer for 5 years and they never disappoint. Every celebration in our family starts with Shree Shyam Bakers!"</p>
+                        <div class="testimonial-author">
+                            <div class="testimonial-avatar">RS</div>
+                            <div>
+                                <h4>Rajesh Sharma</h4>
+                                <span>Regular Customer</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-stars">★★★★★</div>
+                        <p class="testimonial-text">"Ordered a 3-tier wedding cake and it was absolutely stunning! The design was exactly what we wanted and the taste was phenomenal. Our guests are still talking about it. Truly premium quality!"</p>
+                        <div class="testimonial-author">
+                            <div class="testimonial-avatar">PA</div>
+                            <div>
+                                <h4>Priya Agarwal</h4>
+                                <span>Wedding Client</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-stars">★★★★★</div>
+                        <p class="testimonial-text">"Their nankatai and butter cookies remind me of my grandmother's kitchen. Pure, authentic taste with no artificial flavors. The festival gift boxes are always a hit with family and friends!"</p>
+                        <div class="testimonial-author">
+                            <div class="testimonial-avatar">AK</div>
+                            <div>
+                                <h4>Amit Kumar</h4>
+                                <span>Verified Customer</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-stars">★★★★★</div>
+                        <p class="testimonial-text">"Fresh bread every morning — that's our family tradition thanks to Shree Shyam Bakers. The sourdough is crusty on the outside, soft inside. Best artisan bread I've had anywhere in India!"</p>
+                        <div class="testimonial-author">
+                            <div class="testimonial-avatar">SM</div>
+                            <div>
+                                <h4>Sunita Mehra</h4>
+                                <span>Daily Customer</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-controls">
+                    <button class="testimonial-btn testimonial-prev" id="prevBtn" aria-label="Previous testimonial">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 12H5m7-7-7 7 7 7"/></svg>
+                    </button>
+                    <div class="testimonial-dots" id="testimonialDots"></div>
+                    <button class="testimonial-btn testimonial-next" id="nextBtn" aria-label="Next testimonial">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14m-7-7 7 7-7 7"/></svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info animate-on-scroll">
+                    <div class="section-label">Get in Touch</div>
+                    <h2 class="section-title">Let's Create Something <span class="text-accent">Delicious</span></h2>
+                    <p class="contact-text">Have a special order, custom cake request, or just want to say hello? We'd love to hear from you!</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">📍</div>
+                            <div>
+                                <h4>Visit Our Bakery</h4>
+                                <p>Main Market Road, Near Temple Square<br>Heart of the City, India</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">📞</div>
+                            <div>
+                                <h4>Call Us</h4>
+                                <p>+91 98765 43210<br>+91 12345 67890</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">🕐</div>
+                            <div>
+                                <h4>Opening Hours</h4>
+                                <p>Mon - Sat: 7:00 AM - 9:00 PM<br>Sunday: 8:00 AM - 8:00 PM</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">✉️</div>
+                            <div>
+                                <h4>Email Us</h4>
+                                <p>orders@shreeshyambakers.com<br>info@shreeshyambakers.com</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="#" class="social-link" aria-label="Facebook">
+                            <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Instagram">
+                            <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+                        </a>
+                        <a href="#" class="social-link" aria-label="WhatsApp">
+                            <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                        </a>
+                        <a href="#" class="social-link" aria-label="YouTube">
+                            <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 00-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 00.502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 002.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 002.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="contact-form-wrap animate-on-scroll">
+                    <form class="contact-form" id="contactForm">
+                        <h3>Send Us a Message</h3>
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder=" " required>
+                            <label for="name">Your Name</label>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <input type="email" id="email" name="email" placeholder=" " required>
+                                <label for="email">Email Address</label>
+                            </div>
+                            <div class="form-group">
+                                <input type="tel" id="phone" name="phone" placeholder=" " required>
+                                <label for="phone">Phone Number</label>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <select id="orderType" name="orderType" required>
+                                <option value="" disabled selected>Select Order Type</option>
+                                <option value="custom-cake">Custom Cake</option>
+                                <option value="wedding-cake">Wedding Cake</option>
+                                <option value="birthday-cake">Birthday Cake</option>
+                                <option value="pastries">Pastries & Cookies</option>
+                                <option value="sweets">Indian Sweets Box</option>
+                                <option value="bulk-order">Bulk Order</option>
+                                <option value="other">Other Inquiry</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" rows="4" placeholder=" " required></textarea>
+                            <label for="message">Your Message</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full" id="submitBtn">
+                            <span>Send Message</span>
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/></svg>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="footer-grid">
+                    <div class="footer-brand">
+                        <div class="footer-logo">
+                            <img src="images/logo.png" alt="Shree Shyam Bakers">
+                            <div>
+                                <span class="footer-brand-name">Shree Shyam Bakers</span>
+                                <span class="footer-brand-tagline">Baked with Love & Tradition</span>
+                            </div>
+                        </div>
+                        <p>Crafting India's finest breads, cakes, pastries and traditional sweets with generations of expertise and the purest ingredients.</p>
+                    </div>
+                    <div class="footer-links-col">
+                        <h4>Quick Links</h4>
+                        <a href="#home">Home</a>
+                        <a href="#about">About Us</a>
+                        <a href="#products">Our Products</a>
+                        <a href="#gallery">Gallery</a>
+                        <a href="#contact">Contact</a>
+                    </div>
+                    <div class="footer-links-col">
+                        <h4>Our Products</h4>
+                        <a href="#products">Custom Cakes</a>
+                        <a href="#products">Artisan Breads</a>
+                        <a href="#products">French Pastries</a>
+                        <a href="#products">Cookies & Biscuits</a>
+                        <a href="#products">Indian Sweets</a>
+                    </div>
+                    <div class="footer-newsletter">
+                        <h4>Stay Updated</h4>
+                        <p>Subscribe for special offers, new arrivals & festival specials.</p>
+                        <form class="newsletter-form">
+                            <input type="email" placeholder="Your email address" required>
+                            <button type="submit">→</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>© 2026 Shree Shyam Bakers. All Rights Reserved. Crafted with 🧡</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top -->
+    <button id="backToTop" class="back-to-top" aria-label="Back to top">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19V5m-7 7 7-7 7 7"/></svg>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
